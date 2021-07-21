@@ -1,0 +1,59 @@
+/**index.wxss**/
+.box{
+  width: 100%;
+  height: 100%;
+  background-color: #131335;
+}
+.container{
+  display: block;
+  width: 90%;
+  padding: 50rpx 0;
+  margin: 0 auto;
+}
+.header>text{
+  display: inline-block;
+  color: white;
+  padding-left: 10rpx;
+  border-left: 3px solid #1CBBB4;
+}
+.header_val{
+  display: flex;
+  justify-content: space-around;
+  margin: 50rpx 0;
+}
+.circle{
+  text-align: center;
+}
+.circle image{
+  width: 75rpx;
+  height: 75rpx;
+  vertical-align: middle;
+}
+.circle view{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #8F9AC0;
+  border-radius: 50%;
+}
+.timeline{
+  width: 100%;
+  height: 125px;
+  /* background-color: lightskyblue; */
+}
+
+.tbox{
+  width: 100%;
+  height: 275px;
+  /* background-color: lightgreen; */
+  margin: 10rpx  0;
+}
+.phbox{
+  width: 100%;
+  height: 275px;
+  /* background-color: lightsalmon; */
+}
+en-canvas{
+  width: 100%;
+  height: 100%;
+}

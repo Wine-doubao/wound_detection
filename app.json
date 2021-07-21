@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/user/user",
+    "pages/setting/setting"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#131335",
+    "navigationBarTitleText": "E-curing smart dressing"
+  },
+  "tabBar": {
+    "backgroundColor": "#131335",
+    "list":[{
+      "pagePath": "pages/index/index",
+      "iconPath": "icon/home.png",
+      "selectedIconPath": "icon/_home.png"
+    },{
+      "pagePath": "pages/user/user",
+      "iconPath": "icon/user.png",
+      "selectedIconPath": "icon/_user.png"
+    },{
+      "pagePath": "pages/setting/setting",
+      "iconPath": "icon/setting.png",
+      "selectedIconPath": "icon/_setting.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

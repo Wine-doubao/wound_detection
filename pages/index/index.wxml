@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="container">
+    <view class="header">
+      <text>伤口监测</text>
+      <view class="header_val">
+        <view class="circle temp">
+          <image src="../../icon/temp.png"></image>
+          <view class="temp_val">{{tempVal}}</view>
+        </view>
+        <view class="circle ph">
+          <image src="../../icon/ph.png"></image>
+          <view class="ph_val">{{phVal}}</view>
+        </view>
+        <view class="circle status">
+          <image src="../../icon/status.png"></image>
+          <view class="status_val">{{statusVal}}</view>
+        </view>
+      </view>
+      <!-- 时间轴 -->
+      <view class="timeline">
+        <ec-canvas id="mychart-one" canvas-id="mychart-one" ec="{{ecOne}}"></ec-canvas>
+      </view>
+      <view class="timeline">
+        <ec-canvas id="mychart-two" canvas-id="mychart-two" ec="{{ecTwo}}"></ec-canvas>
+      </view>
+
+      <!-- 温度折线图 -->
+      <view class="tbox">
+        <ec-canvas id="mychart-three" canvas-id="mychart-three" ec="{{ecThree}}"></ec-canvas>
+      </view>
+
+      <!-- pH值折线图 -->
+      <view class="phbox">
+        <ec-canvas id="mychart-four" canvas-id="mychart-four" ec="{{ecFour}}"></ec-canvas>
+      </view>
+    </view>
+  </view>
+</view>
